@@ -306,3 +306,29 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.about-body {
+  background: #191970;
+}
+.about-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.7;
+}
+.header {
+  color: white;
+}
+.header h1 {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.header h1:hover {
+  transform: rotate(20deg);
+}
+.main-content {
+  margin-top: 125px;
+  color: white;
+}
