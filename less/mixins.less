@@ -1,1 +1,27 @@
 // Mixins Here
+
+.debug-border-red{
+    border:1px solid red;
+}
+.debug-border-blue{
+    border:1px solid blue;
+}
+.debug-border-green{
+    border:1px solid green;
+}
+
+.flex(@dir,@jus,@ali){
+    display:flex;
+    flex-direction: @dir;
+    justify-content:@jus;
+    align-items: @ali;
+}
+
+.button(@bg, @c, ){
+    color:@c;
+    background:@bg;
+}
+
+
+
+@phone: ~"(max-width:500px)";
