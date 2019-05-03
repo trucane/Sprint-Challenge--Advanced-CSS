@@ -50,12 +50,12 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -133,3 +133,15 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Create a fixed navigation and add some opacity to the background
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+
+
+
+1. Adaptive design uses predescribed layouts to fit the device. Responsive is fluid and layout adapts as the screen is resized.
+
+2. Mobile first means you design from a mobile device (small screen)  perspective. Desktop first means you design from a large screen perspective. 
+
+3. 62.5% of 16px = 10px. This means the browsers default setting will now be at 10px. That will now make 1.6rem = 16px;
+
+4. Preprocessing is a language used to decode css inabling programmers to use logic in their css such as nesting, mixins, and variables.
+
+5. Favorite concept "Parametric Mixins". Concept most trouble... file location, meaning.. using separate less files for diffrent sections of the html document and keeping up with "where" to put "what"
